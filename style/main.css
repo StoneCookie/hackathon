@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Sber Troika';
-	src: url('MoscowSans-Regular.ttf');
+	src: url('../MoscowSans-Regular.ttf');
 }
 
 * {
@@ -312,6 +312,7 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	font-weight: bold;
+	text-decoration: none;
 	border-radius: 70px;
 	font-size: 1.1rem;
 	padding-top: 10px;
@@ -321,6 +322,10 @@ body {
 	box-shadow: 0.64px 17.99px 45px 0 rgba(64, 129, 255, 18%),
 		0.25px 6.93px 14.33px 0 rgba(64, 129, 255, 10.93%),
 		0.05px 1.47px 3.67px 0 rgba(64, 129, 255, 7.07%);
+}
+
+a, a:focus {
+	color: #202C80;
 }
 
 .btn-img {
@@ -355,7 +360,7 @@ body {
 }
 
 #canvas {
-	background: url('media/map/map.png') no-repeat center/100%;
+	background: url('../media/map/map.png') no-repeat center/100%;
 }
 
 .wrap-canvas {
